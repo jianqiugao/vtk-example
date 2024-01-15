@@ -1,0 +1,31 @@
+#pragma once
+#include <iostream>
+#include <vtkCellArray.h>
+#include <vtkDataSet.h>
+#include <vtkSmartPointer.h>
+#include <vtkSphereSource.h>
+#include <vtkConeSource.h>
+#include <vtkActor.h>
+#include <vtkConeSource.h>
+#include <vtkRenderer.h>
+#include <vtkRenderWindow.h>
+#include <vtkPolyDataMapper.h>
+#include <vtkProperty.h>
+#include <vtkRenderWindowInteractor.h>
+#include <vtkLight.h>
+#include <vtkCamera.h>
+#include <vtkActor2D.h>
+#include <vtkLineSource.h>
+#include <vtkAppendPolyData.h>
+#include <vtkPointData.h>
+#include <vtkFloatArray.h>
+#include <vtkQuadricDecimation.h>
+#include <vtkTriangleFilter.h>
+#include <vtkPlaneSource.h>
+#include <vtkOrientationMarkerWidget.h>
+#include <vtkInteractorStyleTrackballCamera.h>
+#include <vtkAxesActor.h>
+#include <vtkDoubleArray.h>
+
+
+void basedatainvtk();

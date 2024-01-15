@@ -1,0 +1,225 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="源文件">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="头文件">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;h++;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="资源文件">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="runtime.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="CellPickerInteractorStyle.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="PointPickerInteractorStyle1.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="vtkImageTracerWidgetOn3D.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="pickPointToChangeAbleLine.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="pickTriangelGridOnSphere.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="MouseInteractorStyle.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="PointPickerInteractorStyle.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="vtkImageTracerWidgetOn2dCanvas.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="wordpresent.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="angleWidget.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="distancewidget.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="anglewidgetsimple.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="BiDimensionalWidget.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="icppointmatch.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="somemacro.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="vtkimagetrans.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="surfacereconstruct.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="FigureTraversal.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="addObserverInWindowInteractor.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="surfaceReconstructDelaunay2d.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="dijsearch.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="figureFourierTransformAndFilter.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="basedatainvtk.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="stscalar.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="cplusrule.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="vtktest.cpp">
+      <Filter>头文件</Filter>
+    </ClCompile>
+    <ClCompile Include="tubereconstruction.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="marchcubeandreconstruct.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="reconstructVesselTroughTubeFilter.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="readMultiPictiure.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="maptest.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="factory_test.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="readimagedataandreconstruct.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="CellPickerInteractorStyle.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="PointPickerInteractorStyle1.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="vtkImageTracerWidgetOn3D.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="pickPointToChangeAbleLine.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="pickTriangelGridOnSphere.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="MouseInteractorStyle.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="PointPickerInteractorStyle.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="vtkImageTracerWidgetOn2dCanvas.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="wordpresent.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="angleWidget.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="distancewidget.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="anglewidgetsimple.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="BiDimensionalWidget.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="icppointmatch.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="somemacro.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="vtkimagetrans.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="surfacereconstruct.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="FigureTraversal.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="addObserverInWindowInteractor.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="surfaceReconstructDelaunay2d.h">
+      <Filter>源文件</Filter>
+    </ClInclude>
+    <ClInclude Include="dijsearch.h">
+      <Filter>源文件</Filter>
+    </ClInclude>
+    <ClInclude Include="figureFourierTransformAndFilter.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="basedatainvtk.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="stscalar.h">
+      <Filter>源文件</Filter>
+    </ClInclude>
+    <ClInclude Include="cplusrule.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="vtktest.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="tubereconstuction.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="marchcubeandreconstruct.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="reconstructVesselTroughTubeFilter.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="readMultiPictiure.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="maptest.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="factory_test.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="toolsTackleImage.h">
+      <Filter>源文件</Filter>
+    </ClInclude>
+    <ClInclude Include="readimagedataandreconstruct.h">
+      <Filter>源文件</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>

@@ -1,0 +1,224 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Debug|x64">
+      <Configuration>Debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|x64">
+      <Configuration>Release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <VCProjectVersion>16.0</VCProjectVersion>
+    <Keyword>Win32Proj</Keyword>
+    <ProjectGuid>{b9eec192-3ca4-48bf-a443-1526f445c309}</ProjectGuid>
+    <RootNamespace>ConsoleApplication1</RootNamespace>
+    <WindowsTargetPlatformVersion>10.0</WindowsTargetPlatformVersion>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v143</PlatformToolset>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v143</PlatformToolset>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v143</PlatformToolset>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v143</PlatformToolset>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="Shared">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <LinkIncremental>true</LinkIncremental>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <LinkIncremental>false</LinkIncremental>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <LinkIncremental>true</LinkIncremental>
+    <IncludePath>C:\Users\123\Desktop\opencv\build\include\opencv2;C:\Users\123\Desktop\opencv\build\include;$(IncludePath)</IncludePath>
+    <LibraryPath>C:\Users\123\Desktop\opencv\build\x64\vc16\lib;C:\gitlab\vs\ctest\ctest\vtk\install\lib;$(LibraryPath)</LibraryPath>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <LinkIncremental>false</LinkIncremental>
+    <IncludePath>C:\Users\123\Desktop\opencv\build\include;C:\Users\123\Desktop\opencv\build\include\opencv2;C:\gitlab\vs\ctest\ctest\vtk\install\include\vtk-7.1;C:\gitlab\vs\ConsoleApplication1\ConsoleApplication1;$(IncludePath)</IncludePath>
+    <LibraryPath>C:\Users\123\Desktop\opencv\build\x64\vc16\lib;C:\gitlab\vs\ctest\ctest\vtk\install\lib;$(LibraryPath)</LibraryPath>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <SDLCheck>true</SDLCheck>
+      <PreprocessorDefinitions>WIN32;_DEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ConformanceMode>true</ConformanceMode>
+    </ClCompile>
+    <Link>
+      <SubSystem>Console</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <SDLCheck>true</SDLCheck>
+      <PreprocessorDefinitions>WIN32;NDEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ConformanceMode>true</ConformanceMode>
+    </ClCompile>
+    <Link>
+      <SubSystem>Console</SubSystem>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <SDLCheck>true</SDLCheck>
+      <PreprocessorDefinitions>_DEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ConformanceMode>true</ConformanceMode>
+      <EnableEnhancedInstructionSet>AdvancedVectorExtensions</EnableEnhancedInstructionSet>
+    </ClCompile>
+    <Link>
+      <SubSystem>Console</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <AdditionalDependencies>opencv_world480d.lib;%(AdditionalDependencies)</AdditionalDependencies>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <SDLCheck>true</SDLCheck>
+      <PreprocessorDefinitions>NDEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ConformanceMode>true</ConformanceMode>
+      <LanguageStandard_C>stdc11</LanguageStandard_C>
+    </ClCompile>
+    <Link>
+      <SubSystem>Console</SubSystem>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <AdditionalDependencies>opencv_world480.lib;opencv_world480d.lib;vtkalglib-7.1.lib;vtkChartsCore-7.1.lib;vtkCommonColor-7.1.lib;vtkCommonComputationalGeometry-7.1.lib;vtkCommonCore-7.1.lib;vtkCommonDataModel-7.1.lib;vtkCommonExecutionModel-7.1.lib;vtkCommonMath-7.1.lib;vtkCommonMisc-7.1.lib;vtkCommonSystem-7.1.lib;vtkCommonTransforms-7.1.lib;vtkDICOMParser-7.1.lib;vtkDomainsChemistry-7.1.lib;vtkDomainsChemistryOpenGL2-7.1.lib;vtkexoIIc-7.1.lib;vtkexpat-7.1.lib;vtkFiltersAMR-7.1.lib;vtkFiltersCore-7.1.lib;vtkFiltersExtraction-7.1.lib;vtkFiltersFlowPaths-7.1.lib;vtkFiltersGeneral-7.1.lib;vtkFiltersGeneric-7.1.lib;vtkFiltersGeometry-7.1.lib;vtkFiltersHybrid-7.1.lib;vtkFiltersHyperTree-7.1.lib;vtkFiltersImaging-7.1.lib;vtkFiltersModeling-7.1.lib;vtkFiltersParallel-7.1.lib;vtkFiltersParallelImaging-7.1.lib;vtkFiltersPoints-7.1.lib;vtkFiltersProgrammable-7.1.lib;vtkFiltersSelection-7.1.lib;vtkFiltersSMP-7.1.lib;vtkFiltersSources-7.1.lib;vtkFiltersStatistics-7.1.lib;vtkFiltersTexture-7.1.lib;vtkFiltersVerdict-7.1.lib;vtkfreetype-7.1.lib;vtkGeovisCore-7.1.lib;vtkgl2ps-7.1.lib;vtkglew-7.1.lib;vtkhdf5-7.1.lib;vtkhdf5_hl-7.1.lib;vtkImagingColor-7.1.lib;vtkImagingCore-7.1.lib;vtkImagingFourier-7.1.lib;vtkImagingGeneral-7.1.lib;vtkImagingHybrid-7.1.lib;vtkImagingMath-7.1.lib;vtkImagingMorphological-7.1.lib;vtkImagingSources-7.1.lib;vtkImagingStatistics-7.1.lib;vtkImagingStencil-7.1.lib;vtkInfovisCore-7.1.lib;vtkInfovisLayout-7.1.lib;vtkInteractionImage-7.1.lib;vtkInteractionStyle-7.1.lib;vtkInteractionWidgets-7.1.lib;vtkIOAMR-7.1.lib;vtkIOCore-7.1.lib;vtkIOEnSight-7.1.lib;vtkIOExodus-7.1.lib;vtkIOExport-7.1.lib;vtkIOGeometry-7.1.lib;vtkIOImage-7.1.lib;vtkIOImport-7.1.lib;vtkIOInfovis-7.1.lib;vtkIOLegacy-7.1.lib;vtkIOLSDyna-7.1.lib;vtkIOMINC-7.1.lib;vtkIOMovie-7.1.lib;vtkIONetCDF-7.1.lib;vtkIOParallel-7.1.lib;vtkIOParallelXML-7.1.lib;vtkIOPLY-7.1.lib;vtkIOSQL-7.1.lib;vtkIOTecplotTable-7.1.lib;vtkIOVideo-7.1.lib;vtkIOXML-7.1.lib;vtkIOXMLParser-7.1.lib;vtkjpeg-7.1.lib;vtkjsoncpp-7.1.lib;vtklibxml2-7.1.lib;vtkmetaio-7.1.lib;vtkNetCDF-7.1.lib;vtkNetCDF_cxx-7.1.lib;vtkoggtheora-7.1.lib;vtkParallelCore-7.1.lib;vtkpng-7.1.lib;vtkproj4-7.1_d.lib;vtkRenderingAnnotation-7.1.lib;vtkRenderingContext2D-7.1.lib;vtkRenderingContextOpenGL2-7.1.lib;vtkRenderingCore-7.1.lib;vtkRenderingFreeType-7.1.lib;vtkRenderingGL2PSOpenGL2-7.1.lib;vtkRenderingImage-7.1.lib;vtkRenderingLOD-7.1.lib;vtkRenderingOpenGL2-7.1.lib;vtkRenderingVolume-7.1.lib;vtksqlite-7.1.lib;vtksys-7.1.lib;vtktiff-7.1.lib;vtkverdict-7.1.lib;vtkViewsCore-7.1.lib;vtkzlib-7.1.lib;%(AdditionalDependencies)</AdditionalDependencies>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <ClCompile Include="addObserverInWindowInteractor.cpp" />
+    <ClCompile Include="angleWidget.cpp" />
+    <ClCompile Include="anglewidgetsimple.cpp" />
+    <ClCompile Include="basedatainvtk.cpp" />
+    <ClCompile Include="BiDimensionalWidget.cpp" />
+    <ClCompile Include="CellPickerInteractorStyle.cpp" />
+    <ClCompile Include="cplusrule.cpp" />
+    <ClCompile Include="dijsearch.cpp" />
+    <ClCompile Include="distancewidget.cpp" />
+    <ClCompile Include="factory_test.cpp" />
+    <ClCompile Include="figureFourierTransformAndFilter.cpp" />
+    <ClCompile Include="FigureTraversal.cpp" />
+    <ClCompile Include="icppointmatch.cpp" />
+    <ClCompile Include="maptest.cpp" />
+    <ClCompile Include="marchcubeandreconstruct.cpp" />
+    <ClCompile Include="MouseInteractorStyle.cpp" />
+    <ClCompile Include="pickPointToChangeAbleLine.cpp" />
+    <ClCompile Include="pickTriangelGridOnSphere.cpp" />
+    <ClCompile Include="PointPickerInteractorStyle.cpp" />
+    <ClCompile Include="PointPickerInteractorStyle1.cpp" />
+    <ClCompile Include="readimagedataandreconstruct.cpp" />
+    <ClCompile Include="readMultiPictiure.cpp" />
+    <ClCompile Include="reconstructVesselTroughTubeFilter.cpp" />
+    <ClCompile Include="runtime.cpp" />
+    <ClCompile Include="somemacro.cpp" />
+    <ClCompile Include="stscalar.cpp" />
+    <ClCompile Include="surfacereconstruct.cpp" />
+    <ClCompile Include="surfaceReconstructDelaunay2d.cpp" />
+    <ClCompile Include="tubereconstruction.cpp" />
+    <ClCompile Include="vtkImageTracerWidgetOn2dCanvas.cpp" />
+    <ClCompile Include="vtkImageTracerWidgetOn3D.cpp" />
+    <ClCompile Include="vtkimagetrans.cpp" />
+    <ClCompile Include="vtktest.cpp" />
+    <ClCompile Include="wordpresent.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="addObserverInWindowInteractor.h" />
+    <ClInclude Include="angleWidget.h" />
+    <ClInclude Include="anglewidgetsimple.h" />
+    <ClInclude Include="basedatainvtk.h" />
+    <ClInclude Include="BiDimensionalWidget.h" />
+    <ClInclude Include="CellPickerInteractorStyle.h" />
+    <ClInclude Include="cplusrule.h" />
+    <ClInclude Include="dijsearch.h" />
+    <ClInclude Include="distancewidget.h" />
+    <ClInclude Include="factory_test.h" />
+    <ClInclude Include="figureFourierTransformAndFilter.h" />
+    <ClInclude Include="FigureTraversal.h" />
+    <ClInclude Include="icppointmatch.h" />
+    <ClInclude Include="maptest.h" />
+    <ClInclude Include="marchcubeandreconstruct.h" />
+    <ClInclude Include="MouseInteractorStyle.h" />
+    <ClInclude Include="pickPointToChangeAbleLine.h" />
+    <ClInclude Include="pickTriangelGridOnSphere.h" />
+    <ClInclude Include="PointPickerInteractorStyle.h" />
+    <ClInclude Include="PointPickerInteractorStyle1.h" />
+    <ClInclude Include="readimagedataandreconstruct.h" />
+    <ClInclude Include="readMultiPictiure.h" />
+    <ClInclude Include="reconstructVesselTroughTubeFilter.h" />
+    <ClInclude Include="somemacro.h" />
+    <ClInclude Include="stscalar.h" />
+    <ClInclude Include="surfacereconstruct.h" />
+    <ClInclude Include="surfaceReconstructDelaunay2d.h" />
+    <ClInclude Include="toolsTackleImage.h" />
+    <ClInclude Include="tubereconstuction.h" />
+    <ClInclude Include="vtkImageTracerWidgetOn2dCanvas.h" />
+    <ClInclude Include="vtkImageTracerWidgetOn3D.h" />
+    <ClInclude Include="vtkimagetrans.h" />
+    <ClInclude Include="vtktest.h" />
+    <ClInclude Include="wordpresent.h" />
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>
